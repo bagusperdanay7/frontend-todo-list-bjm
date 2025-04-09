@@ -7,7 +7,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const API_URL = "http://localhost:3001/todos";
+  const API_URL = "https://backend-todo-list-bjm.vercel.app/todos";
 
   // Mengambil semua tugas ketika komponen dipasang
   useEffect(() => {
